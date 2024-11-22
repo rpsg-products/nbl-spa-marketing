@@ -4,4 +4,6 @@ window.Intercom("boot", {
   });
 
 window.Intercom("update");
-Intercom('show');
+setTimeout(() => {
+  Intercom('show');
+}, 10000);
